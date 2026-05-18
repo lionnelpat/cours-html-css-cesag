@@ -1,5 +1,3 @@
-.. Introduction au Développement Web — CESAG
-
 ========================================================
 Introduction au Développement Web avec HTML & CSS
 ========================================================
@@ -84,7 +82,9 @@ Structure du cours
 .. toctree::
    :maxdepth: 1
    :caption: 🎨 Partie 2 — CSS
-   :hidden:
+   :numbered:
+
+   partie2-css/index
 
 ----
 
