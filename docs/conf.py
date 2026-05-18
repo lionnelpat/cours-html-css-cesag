@@ -37,13 +37,41 @@ html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 
 html_theme_options = {
-    "logo_only": False,
-    "navigation_depth": 4,
-    "style_nav_header_background": "#1A7A2A",
-    "collapse_navigation": False,
-    "sticky_navigation": True,
-    "includehidden": True,
-    "titles_only": False,
+    "light_css_variables": {
+        # Couleurs CESAG
+        "color-brand-primary": "#1A7A2A",
+        "color-brand-content": "#1A7A2A",
+        # Sidebar claire
+        "color-sidebar-background": "#f4f9f4",
+        "color-sidebar-background-border": "#c8dfc8",
+        "color-sidebar-caption-text": "#1A7A2A",
+        "color-sidebar-link-text": "#2c2c2c",
+        "color-sidebar-link-text--top-level": "#111111",
+        "color-sidebar-item-background--hover": "#dceede",
+        "color-sidebar-item-background--current": "#E8420A",
+        "color-sidebar-item-expander-background": "transparent",
+        "color-sidebar-item-expander-background--hover": "#dceede",
+        # Contenu principal blanc
+        "color-background-primary": "#ffffff",
+        "color-background-secondary": "#f7faf7",
+        "color-background-border": "#dde8dd",
+        "color-foreground-primary": "#1c1c1c",
+        "color-foreground-secondary": "#444444",
+        "color-foreground-muted": "#666666",
+        # Code
+        "color-code-background": "#f4f8f4",
+        "color-code-foreground": "#1c2e1c",
+        # Liens
+        "color-link": "#1A7A2A",
+        "color-link--hover": "#E8420A",
+        "color-link-underline": "transparent",
+        "color-link-underline--hover": "#E8420A",
+        # Annonces / highlights
+        "color-highlighted-background": "#fff5ef",
+        "color-highlighted-text": "#2e1a10",
+    },
+    "sidebar_hide_name": False,
+    "navigation_with_keys": True,
 }
 
 html_title = "Cours HTML & CSS — CESAG L1 MIAGE"
