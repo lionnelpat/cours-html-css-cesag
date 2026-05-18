@@ -83,3 +83,86 @@ html_meta = {
     "keywords": "HTML, CSS, développement web, CESAG, MIAGE, Dakar",
     "author": "PATRICK LIONNEL DOOKO - Model Technologie"
 }
+
+# ─────────────────────────────────────────────────────────────────────────────
+# -- Export PDF (LaTeX/pdflatex) -----------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
+
+latex_engine = "pdflatex"
+
+latex_elements = {
+    "papersize": "a4paper",
+    "pointsize": "11pt",
+    "preamble": r"""
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\definecolor{cesagvert}{HTML}{1A7A2A}
+\definecolor{cesagorange}{HTML}{E8420A}
+\usepackage{titlesec}
+\titleformat{\chapter}[block]
+  {\normalfont\LARGE\bfseries\color{cesagvert}}
+  {\thechapter.}{1em}{}
+\titleformat{\section}[block]
+  {\normalfont\Large\bfseries\color{cesagvert}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}[block]
+  {\normalfont\large\bfseries\color{cesagvert!80!black}}
+  {\thesubsection}{1em}{}
+\usepackage[colorlinks=true,
+            linkcolor=cesagvert,
+            urlcolor=cesagvert,
+            citecolor=cesagvert]{hyperref}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+""",
+    "maketitle": r"""
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\color{cesagvert}\rule{\textwidth}{2pt}}\par
+\vspace{1cm}
+{\LARGE\bfseries\color{cesagvert}
+Introduction au Développement Web\\[0.4em]
+avec HTML \& CSS\par}
+\vspace{0.8cm}
+{\color{cesagorange}\rule{\textwidth}{1pt}}\par
+\vspace{1.2cm}
+{\large CESAG --- Centre Africain d'Études Supérieures en Gestion\\
+Licence 1 MIAGE --- Dakar, Sénégal\par}
+\vspace{0.6cm}
+{\large Année académique 2025--2026\par}
+\vfill
+{\small\color{gray} Support de cours --- Patrick Lionnel Dooko --- Model Technologie}
+\end{titlepage}
+""",
+    "extraclassoptions": "openany",
+    "sphinxsetup": "verbatimwithframe=false",
+}
+
+latex_documents = [
+    (
+        "index",
+        "cours-html-css-cesag.tex",
+        "Introduction au Développement Web — HTML \\& CSS",
+        "CESAG — Licence 1 MIAGE",
+        "manual",
+    ),
+]
+
+numfig = True
+
+# ─────────────────────────────────────────────────────────────────────────────
+# -- Export ePub ---------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
+
+epub_title = "Introduction au Développement Web — HTML & CSS"
+epub_author = "CESAG — Licence 1 MIAGE"
+epub_publisher = "CESAG — Centre Africain d'Études Supérieures en Gestion, Dakar"
+epub_copyright = "2026, CESAG — Dakar"
+epub_language = "fr"
+epub_uid = "cesag-cours-html-css-2025-2026"
+epub_show_urls = "no"

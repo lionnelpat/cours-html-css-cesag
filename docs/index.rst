@@ -88,6 +88,40 @@ Structure du cours
 
 ----
 
+Téléchargement hors-ligne
+==========================
+
+.. admonition:: Cours disponible en PDF et ePub
+   :class: tip
+
+   Tu peux télécharger l'intégralité de ce support de cours pour réviser
+   **sans connexion Internet** — utile lors des coupures de réseau.
+
+   .. list-table::
+      :widths: 20 50 30
+      :header-rows: 1
+
+      * - Format
+        - Contenu
+        - Lien
+      * - **PDF**
+        - Version imprimable, idéale pour réviser sur papier ou tablette
+        - `Télécharger le PDF <https://cours-html-css-cesag.readthedocs.io/_/downloads/fr/latest/pdf/>`_
+      * - **ePub**
+        - Version pour liseuse électronique (Kindle, Kobo, téléphone)
+        - `Télécharger l'ePub <https://cours-html-css-cesag.readthedocs.io/_/downloads/fr/latest/epub/>`_
+
+.. admonition:: Comment télécharger
+   :class: note
+
+   | 1. Clique sur le lien **PDF** ou **ePub** ci-dessus.
+   | 2. Ouvre le PDF avec n'importe quel lecteur (navigateur, téléphone, Adobe Reader).
+   | 3. Le fichier fait environ 2–5 Mo — préfère le Wi-Fi pour le télécharger.
+   | 4. Si le lien ne fonctionne pas, utilise le bouton **"Download"** en bas à gauche
+   |    de n'importe quelle page du site.
+
+----
+
 .. admonition:: À propos de ce cours
    :class: note
 
