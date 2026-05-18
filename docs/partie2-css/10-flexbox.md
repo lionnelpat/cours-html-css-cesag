@@ -1,4 +1,4 @@
-# Leçon 10 — Flexbox : mise en page moderne
+# 2.4 Flexbox : mise en page moderne
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -14,7 +14,7 @@
 
 ---
 
-## 1. Pourquoi Flexbox ?
+## 2.4.1 Pourquoi Flexbox ?
 
 Avant Flexbox, créer une mise en page en CSS était une vraie torture — on utilisait des `float`, des `position`, des `table`... tout était compliqué et fragile.
 
@@ -25,7 +25,7 @@ Avant Flexbox, créer une mise en page en CSS était une vraie torture — on ut
 
 ---
 
-## 2. Concepts de base — Conteneur et enfants
+## 2.4.2 Concepts de base — Conteneur et enfants
 
 Flexbox fonctionne sur deux niveaux :
 
@@ -60,7 +60,7 @@ Flexbox fonctionne sur deux niveaux :
 
 ---
 
-## 3. L'axe principal et l'axe secondaire
+## 2.4.3 L'axe principal et l'axe secondaire
 
 Flexbox utilise deux axes :
 
@@ -78,7 +78,7 @@ Axe principal (main axis) → → → → → → → → →
 
 ---
 
-## 4. `flex-direction` — La direction
+## 2.4.4 `flex-direction` — La direction
 
 ```css
 .conteneur {
@@ -106,7 +106,7 @@ nav {
 
 ---
 
-## 5. `justify-content` — Alignement sur l'axe principal
+## 2.4.5 `justify-content` — Alignement sur l'axe principal
 
 ```css
 .conteneur {
@@ -134,7 +134,7 @@ space-evenly: [  [A]  [B]  [C]  ]
 
 ---
 
-## 6. `align-items` — Alignement sur l'axe secondaire
+## 2.4.6 `align-items` — Alignement sur l'axe secondaire
 
 ```css
 .conteneur {
@@ -163,7 +163,7 @@ space-evenly: [  [A]  [B]  [C]  ]
 
 ---
 
-## 7. `flex-wrap` — Le retour à la ligne
+## 2.4.7 `flex-wrap` — Le retour à la ligne
 
 Par défaut, les éléments flex **ne reviennent pas à la ligne** — ils se rétrécissent pour tenir.
 
@@ -192,7 +192,7 @@ Par défaut, les éléments flex **ne reviennent pas à la ligne** — ils se r�
 
 ---
 
-## 8. `gap` — L'espacement entre éléments
+## 2.4.8 `gap` — L'espacement entre éléments
 
 `gap` remplace les marges entre éléments flex (et grid) :
 
@@ -213,7 +213,7 @@ Utilise `gap` plutôt que `margin` sur les enfants — `gap` ne crée pas d'espa
 
 ---
 
-## 9. Propriétés sur les enfants flex
+## 2.4.9 Propriétés sur les enfants flex
 
 ### `flex` — La taille flexible
 
@@ -260,7 +260,7 @@ Utilise `gap` plutôt que `margin` sur les enfants — `gap` ne crée pas d'espa
 
 ---
 
-## 10. Exemples pratiques complets
+## 2.4.10 Exemples pratiques complets
 
 ### Navigation horizontale
 

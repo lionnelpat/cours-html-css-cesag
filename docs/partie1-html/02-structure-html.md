@@ -1,4 +1,4 @@
-# Leçon 2 — Structure d'un document HTML
+# 1.2 Structure d'un document HTML
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Créer son premier fichier HTML
+## 1.2.1 Créer son premier fichier HTML
 
 ### Étape 1 — Installer VS Code et Live Server
 
@@ -38,7 +38,7 @@ Par convention, la **page principale** d'un site s'appelle toujours `index.html`
 
 ---
 
-## 2. La structure de base HTML5
+## 1.2.2 La structure de base HTML5
 
 Voici la structure **minimale obligatoire** de tout fichier HTML5 :
 
@@ -82,7 +82,7 @@ VS Code génère automatiquement toute la structure de base ! C'est un **Emmet a
 
 ---
 
-## 3. Anatomie d'une balise HTML
+## 1.2.3 Anatomie d'une balise HTML
 
 Une balise HTML se compose de :
 
@@ -144,7 +144,7 @@ Les attributs apportent des **informations supplémentaires** à une balise :
 
 ---
 
-## 4. Les commentaires HTML
+## 1.2.4 Les commentaires HTML
 
 Un commentaire est du texte ignoré par le navigateur — il n'est pas affiché. Il sert à documenter ton code :
 
@@ -167,7 +167,7 @@ Un commentaire est du texte ignoré par le navigateur — il n'est pas affiché.
 
 ---
 
-## 5. La structure sémantique HTML5
+## 1.2.5 La structure sémantique HTML5
 
 HTML5 a introduit des **balises sémantiques** — elles donnent du *sens* à la structure de la page, ce que de simples `<div>` ne font pas.
 
@@ -256,7 +256,7 @@ Quand aucune balise sémantique ne convient, on utilise :
 
 ---
 
-## 6. Indentation et lisibilité
+## 1.2.6 Indentation et lisibilité
 
 Un code bien indenté est **essentiel** — c'est une question professionnelle.
 

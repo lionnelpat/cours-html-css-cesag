@@ -1,4 +1,4 @@
-# Leçon 8 — Sélecteurs avancés et pseudo-classes
+# 2.2 Sélecteurs avancés et pseudo-classes
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Les sélecteurs de combinaison
+## 2.2.1 Les sélecteurs de combinaison
 
 Ces sélecteurs permettent de cibler des éléments selon leur **position dans le HTML**.
 
@@ -114,7 +114,7 @@ h2 ~ p {
 
 ---
 
-## 2. Les sélecteurs d'attributs
+## 2.2.2 Les sélecteurs d'attributs
 
 Permettent de cibler des éléments selon leurs **attributs HTML** :
 
@@ -162,7 +162,7 @@ input[type="email"] {
 
 ---
 
-## 3. Les pseudo-classes
+## 2.2.3 Les pseudo-classes
 
 Les pseudo-classes ciblent un élément selon son **état** ou sa **position**.
 
@@ -304,7 +304,7 @@ li:not(:last-child) {
 
 ---
 
-## 4. Les pseudo-éléments
+## 2.2.4 Les pseudo-éléments
 
 Les pseudo-éléments ciblent une **partie** d'un élément ou insèrent du contenu.
 
@@ -393,7 +393,7 @@ textarea::placeholder {
 
 ---
 
-## 5. Exemple complet — Navigation stylisée
+## 2.2.5 Exemple complet — Navigation stylisée
 
 ```html
 <!-- HTML -->

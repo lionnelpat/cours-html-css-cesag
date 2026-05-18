@@ -1,4 +1,4 @@
-# Leçon 11 — CSS Grid : mise en page en grille
+# 2.5 CSS Grid : mise en page en grille
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -13,7 +13,7 @@
 
 ---
 
-## 1. Flexbox vs Grid — Quand utiliser lequel ?
+## 2.5.1 Flexbox vs Grid — Quand utiliser lequel ?
 
 | | **Flexbox** | **CSS Grid** |
 |---|-------------|-------------|
@@ -30,7 +30,7 @@
 
 ---
 
-## 2. Activer CSS Grid
+## 2.5.2 Activer CSS Grid
 
 ```css
 .conteneur {
@@ -42,7 +42,7 @@ Sans définir de colonnes, les éléments s'empilent comme en `display: block`.
 
 ---
 
-## 3. `grid-template-columns` — Définir les colonnes
+## 2.5.3 `grid-template-columns` — Définir les colonnes
 
 ```css
 /* 3 colonnes de 200px chacune */
@@ -96,7 +96,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 ---
 
-## 4. `grid-template-rows` — Définir les lignes
+## 2.5.4 `grid-template-rows` — Définir les lignes
 
 ```css
 .grille {
@@ -108,7 +108,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 ---
 
-## 5. `gap` — L'espace entre cellules
+## 2.5.5 `gap` — L'espace entre cellules
 
 ```css
 .grille {
@@ -122,7 +122,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 ---
 
-## 6. Placer les éléments dans la grille
+## 2.5.6 Placer les éléments dans la grille
 
 Par défaut, les éléments s'placent automatiquement dans les cellules. On peut aussi les placer **manuellement** :
 
@@ -164,7 +164,7 @@ Lignes de grille (colonnes) :
 
 ---
 
-## 7. `grid-template-areas` — Zones nommées
+## 2.5.7 `grid-template-areas` — Zones nommées
 
 La fonctionnalité la plus puissante de Grid : nommer les zones visuellement.
 
@@ -221,7 +221,7 @@ grid-template-areas:
 
 ---
 
-## 8. Alignement dans la grille
+## 2.5.8 Alignement dans la grille
 
 ```css
 /* Alignement de tous les items dans leurs cellules */
@@ -248,7 +248,7 @@ grid-template-areas:
 
 ---
 
-## 9. Exemples pratiques complets
+## 2.5.9 Exemples pratiques complets
 
 ### Layout de page classique
 

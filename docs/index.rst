@@ -74,6 +74,12 @@ Structure du cours
 
 .. toctree::
    :maxdepth: 1
+   :caption: 📋 Plan du cours
+
+   plan-du-cours
+
+.. toctree::
+   :maxdepth: 1
    :caption: 🌐 Partie 1 — HTML
    :numbered:
 

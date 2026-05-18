@@ -1,4 +1,4 @@
-# Leçon 9 — Le modèle de boîte (Box Model)
+# 2.3 Le modèle de boîte (Box Model)
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -13,7 +13,7 @@
 
 ---
 
-## 1. Qu'est-ce que le Box Model ?
+## 2.3.1 Qu'est-ce que le Box Model ?
 
 En CSS, **chaque élément HTML est une boîte rectangulaire** composée de 4 zones concentriques :
 
@@ -43,7 +43,7 @@ En CSS, **chaque élément HTML est une boîte rectangulaire** composée de 4 zo
 
 ---
 
-## 2. Padding — l'espace intérieur
+## 2.3.2 Padding — l'espace intérieur
 
 ```css
 /* Les 4 côtés en une seule propriété */
@@ -84,7 +84,7 @@ Retiens **TRouBLe** : Top, Right, Bottom, Left !
 
 ---
 
-## 3. Margin — l'espace extérieur
+## 2.3.3 Margin — l'espace extérieur
 
 ```css
 /* Mêmes raccourcis que padding */
@@ -120,7 +120,7 @@ p { margin-top: 30px; }
 
 ---
 
-## 4. Border — la bordure
+## 2.3.4 Border — la bordure
 
 ```css
 /* Raccourci : largeur | style | couleur */
@@ -158,7 +158,7 @@ div {
 
 ---
 
-## 5. Width et Height
+## 2.3.5 Width et Height
 
 ```css
 div {
@@ -178,7 +178,7 @@ div {
 
 ---
 
-## 6. `box-sizing` — Le calcul des dimensions
+## 2.3.6 `box-sizing` — Le calcul des dimensions
 
 Par défaut, `width` ne compte que le **content**. Padding et border s'ajoutent par-dessus :
 
@@ -221,7 +221,7 @@ Place cette règle au **tout début** de tous tes fichiers CSS. C'est la pratiqu
 
 ---
 
-## 7. La propriété `display`
+## 2.3.7 La propriété `display`
 
 `display` contrôle comment un élément **occupe l'espace** dans la page.
 
@@ -289,7 +289,7 @@ Masque complètement l'élément (comme s'il n'existait pas — aucun espace occ
 
 ---
 
-## 8. La propriété `position`
+## 2.3.8 La propriété `position`
 
 ### `position: static` (défaut)
 
@@ -384,7 +384,7 @@ nav      { z-index: 100; }
 
 ---
 
-## 9. Overflow — La gestion du débordement
+## 2.3.9 Overflow — La gestion du débordement
 
 Quand le contenu dépasse les dimensions de sa boîte :
 
@@ -405,7 +405,7 @@ div {
 
 ---
 
-## 10. Les ombres
+## 2.3.10 Les ombres
 
 ```css
 /* Ombre de texte */
@@ -435,7 +435,7 @@ input:focus {
 
 ---
 
-## 11. Les fonds avancés
+## 2.3.11 Les fonds avancés
 
 ```css
 div {
@@ -462,7 +462,7 @@ div {
 
 ---
 
-## 12. Les transitions CSS
+## 2.3.12 Les transitions CSS
 
 Les transitions permettent d'animer le changement d'une propriété :
 

@@ -1,4 +1,4 @@
-# Leçon 5 — Listes et Tableaux
+# 1.5 Listes et Tableaux
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Les listes non ordonnées `<ul>`
+## 1.5.1 Les listes non ordonnées `<ul>`
 
 Une liste **non ordonnée** affiche des éléments avec des puces (•).
 
@@ -41,7 +41,7 @@ Une liste **non ordonnée** affiche des éléments avec des puces (•).
 
 ---
 
-## 2. Les listes ordonnées `<ol>`
+## 1.5.2 Les listes ordonnées `<ol>`
 
 Une liste **ordonnée** numérote automatiquement les éléments.
 
@@ -87,7 +87,7 @@ Une liste **ordonnée** numérote automatiquement les éléments.
 
 ---
 
-## 3. Les listes imbriquées
+## 1.5.3 Les listes imbriquées
 
 On peut mettre une liste **à l'intérieur** d'un élément de liste :
 
@@ -142,7 +142,7 @@ La sous-liste doit être **à l'intérieur du `<li>`** parent, pas après lui.
 
 ---
 
-## 4. Les listes de définitions `<dl>`
+## 1.5.4 Les listes de définitions `<dl>`
 
 Utilisées pour des **glossaires** ou des paires **terme / définition** :
 
@@ -171,7 +171,7 @@ Utilisées pour des **glossaires** ou des paires **terme / définition** :
 
 ---
 
-## 5. Les tableaux HTML
+## 1.5.5 Les tableaux HTML
 
 Les tableaux servent à **présenter des données structurées** (horaires, notes, tarifs...).
 

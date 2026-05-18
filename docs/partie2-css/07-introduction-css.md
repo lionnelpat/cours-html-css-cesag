@@ -1,4 +1,4 @@
-# Leçon 7 — Introduction au CSS
+# 2.1 Introduction au CSS
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Qu'est-ce que CSS ?
+## 2.1.1 Qu'est-ce que CSS ?
 
 **CSS** (Cascading Style Sheets — Feuilles de Style en Cascade) est le langage qui contrôle **l'apparence visuelle** des pages web.
 
@@ -32,7 +32,7 @@ Si HTML est le **squelette** d'une page (la structure), CSS en est la **peau et 
 
 ---
 
-## 2. Les 3 façons d'écrire du CSS
+## 2.1.2 Les 3 façons d'écrire du CSS
 
 ### Méthode 1 — CSS externe (✅ Recommandée)
 
@@ -101,7 +101,7 @@ Toujours utiliser la **méthode 1** (fichier CSS externe). C'est la bonne pratiq
 
 ---
 
-## 3. Syntaxe d'une règle CSS
+## 2.1.3 Syntaxe d'une règle CSS
 
 ```css
 sélecteur {
@@ -137,7 +137,7 @@ Chaque déclaration CSS doit se terminer par un **point-virgule** `;`. L'oublier
 
 ---
 
-## 4. Les sélecteurs de base
+## 2.1.4 Les sélecteurs de base
 
 ### Sélecteur d'élément (balise)
 
@@ -229,7 +229,7 @@ h1, h2, h3, h4 {
 
 ---
 
-## 5. Les couleurs en CSS
+## 2.1.5 Les couleurs en CSS
 
 ### Couleur par nom
 
@@ -282,7 +282,7 @@ h1 { color: hsl(133, 65%, 29%); }            /* Vert CESAG */
 
 ---
 
-## 6. Les propriétés de texte
+## 2.1.6 Les propriétés de texte
 
 ```css
 p {
@@ -322,7 +322,7 @@ Utilise `rem` pour les tailles de police et `px` pour les bordures et les petits
 
 ---
 
-## 7. Les polices web — Google Fonts
+## 2.1.7 Les polices web — Google Fonts
 
 Pour utiliser des polices plus belles que les polices système :
 
@@ -347,7 +347,7 @@ h1, h2, h3 {
 
 ---
 
-## 8. La cascade et la spécificité
+## 2.1.8 La cascade et la spécificité
 
 CSS signifie "Cascading" (en cascade). Quand plusieurs règles s'appliquent au même élément, le navigateur doit décider laquelle "gagne".
 
@@ -387,7 +387,7 @@ Si tu te bats avec la spécificité, c'est souvent signe que ta structure CSS do
 
 ---
 
-## 9. Les commentaires CSS
+## 2.1.9 Les commentaires CSS
 
 ```css
 /* Commentaire sur une ligne */
@@ -407,7 +407,7 @@ nav {
 
 ---
 
-## 10. Les outils de développement — DevTools CSS
+## 2.1.10 Les outils de développement — DevTools CSS
 
 Dans Chrome, `F12` → onglet **Elements** :
 - Sélectionne un élément dans le HTML → ses styles CSS apparaissent à droite

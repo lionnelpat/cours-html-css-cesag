@@ -1,4 +1,4 @@
-# Leçon 1 — Introduction au Web
+# 1.1 Introduction au Web
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -11,7 +11,7 @@
 
 ---
 
-## 1. Qu'est-ce qu'Internet ?
+## 1.1.1 Qu'est-ce qu'Internet ?
 
 Internet est un **réseau mondial d'ordinateurs** interconnectés. Imagine une immense toile d'araignée reliant des milliards d'appareils : ordinateurs, téléphones, tablettes, serveurs...
 
@@ -24,7 +24,7 @@ Internet, c'est comme le réseau téléphonique mondial — une infrastructure d
 
 ---
 
-## 2. Qu'est-ce que le Web ?
+## 1.1.2 Qu'est-ce que le Web ?
 
 Le **Web** (World Wide Web, ou simplement "le web") est un système de **pages et de documents reliés entre eux par des liens hypertextes**, accessibles via Internet.
 
@@ -42,7 +42,7 @@ Le Web a été inventé en **1989** par **Tim Berners-Lee**, un ingénieur brita
 
 ---
 
-## 3. Comment fonctionne une page web ?
+## 1.1.3 Comment fonctionne une page web ?
 
 Voici ce qui se passe quand tu tapes une adresse web dans ton navigateur :
 
@@ -92,7 +92,7 @@ Le navigateur **lit** le code HTML, **télécharge** les fichiers CSS et images 
 
 ---
 
-## 4. Le rôle de HTML, CSS et JavaScript
+## 1.1.4 Le rôle de HTML, CSS et JavaScript
 
 Ces trois langages forment le **trio du développement web front-end** :
 
@@ -136,7 +136,7 @@ Nous allons apprendre **HTML** (Partie 1) et **CSS** (Partie 2). JavaScript sera
 
 ---
 
-## 5. Les navigateurs web
+## 1.1.5 Les navigateurs web
 
 Un **navigateur** est un logiciel qui lit le code HTML/CSS/JS et affiche les pages web.
 
@@ -157,7 +157,7 @@ Pour le développement web, utilise **Google Chrome** ou **Firefox**. Ils possè
 
 ---
 
-## 6. Un éditeur de code — VS Code
+## 1.1.6 Un éditeur de code — VS Code
 
 Pour écrire du HTML et du CSS, tu as besoin d'un **éditeur de code**. Nous utiliserons **Visual Studio Code** (VS Code), développé par Microsoft.
 
@@ -179,7 +179,7 @@ Une fois VS Code installé, installe ces extensions (icône puzzle à gauche) :
 
 ---
 
-## 7. Les outils de développement du navigateur
+## 1.1.7 Les outils de développement du navigateur
 
 Appuie sur `F12` (ou `Ctrl+Shift+I`) dans Chrome pour ouvrir les **DevTools** :
 

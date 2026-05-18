@@ -1,4 +1,4 @@
-# Leçon 4 — Images et Multimédia
+# 1.4 Images et Multimédia
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -13,7 +13,7 @@
 
 ---
 
-## 1. La balise `<img>`
+## 1.4.1 La balise `<img>`
 
 ```html
 <img src="photo.jpg" alt="Description de l'image">
@@ -73,7 +73,7 @@ Pour les images décoratives (sans valeur informative), utilise `alt=""` (vide).
 
 ---
 
-## 2. Les formats d'images pour le Web
+## 1.4.2 Les formats d'images pour le Web
 
 | Format | Extension | Usage recommandé | Transparence |
 |--------|-----------|-----------------|--------------|
@@ -97,7 +97,7 @@ Pour les images décoratives (sans valeur informative), utilise `alt=""` (vide).
 
 ---
 
-## 3. `<figure>` et `<figcaption>` — Images avec légende
+## 1.4.3 `<figure>` et `<figcaption>` — Images avec légende
 
 ```html
 <figure>
@@ -117,7 +117,7 @@ Pour les images décoratives (sans valeur informative), utilise `alt=""` (vide).
 
 ---
 
-## 4. Images responsives — `srcset`
+## 1.4.4 Images responsives — `srcset`
 
 Sur un téléphone, on n'a pas besoin d'une image de 2000px de large. L'attribut `srcset` permet de fournir plusieurs versions d'une image :
 
@@ -138,7 +138,7 @@ Le navigateur choisit automatiquement la bonne taille selon l'écran.
 
 ---
 
-## 5. La vidéo HTML5 — `<video>`
+## 1.4.5 La vidéo HTML5 — `<video>`
 
 HTML5 permet d'intégrer des vidéos directement sans plugin :
 
@@ -172,7 +172,7 @@ HTML5 permet d'intégrer des vidéos directement sans plugin :
 
 ---
 
-## 6. L'audio HTML5 — `<audio>`
+## 1.4.6 L'audio HTML5 — `<audio>`
 
 ```html
 <audio controls>
@@ -184,7 +184,7 @@ HTML5 permet d'intégrer des vidéos directement sans plugin :
 
 ---
 
-## 7. Intégrer une vidéo YouTube (iframe)
+## 1.4.7 Intégrer une vidéo YouTube (iframe)
 
 La méthode la plus simple pour les vidéos YouTube :
 
@@ -204,7 +204,7 @@ Pour trouver le code : Sur YouTube → Partager → Intégrer → Copier le code
 
 ---
 
-## 8. Intégrer Google Maps
+## 1.4.8 Intégrer Google Maps
 
 ```html
 <iframe
