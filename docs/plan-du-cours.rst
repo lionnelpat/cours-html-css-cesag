@@ -18,12 +18,6 @@ Structure complète des **12 leçons** organisées en deux parties.
 
 ----
 
-.. contents:: Sommaire
-   :depth: 2
-   :local:
-
-----
-
 Partie 1 — HTML : Le langage de structure
 ==========================================
 
