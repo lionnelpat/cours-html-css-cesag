@@ -1,0 +1,173 @@
+/* ============================================================
+   Charte graphique CESAG — Vert #1A7A2A | Orange #E8420A
+   ============================================================ */
+
+/* --- Barre de navigation latérale ---- */
+.wy-nav-top {
+    background-color: #1A7A2A !important;
+}
+
+.wy-side-nav-search {
+    background-color: #1A7A2A !important;
+}
+
+.wy-side-nav-search input[type="text"] {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.wy-side-nav-search .wy-breadcrumbs-aside {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Titre du projet dans le sidebar */
+.wy-side-nav-search > a {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* --- Menu latéral --- */
+.wy-menu-vertical a {
+    color: #333333;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #e8f5e9 !important;
+    color: #1A7A2A !important;
+}
+
+.wy-menu-vertical li.current > a {
+    background-color: #E8420A !important;
+    color: white !important;
+    border-left: 4px solid #c2350a !important;
+}
+
+.wy-menu-vertical li.current li a:hover {
+    background-color: #fff3ee !important;
+    color: #E8420A !important;
+}
+
+.wy-menu-vertical .caption-text {
+    color: #1A7A2A;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+}
+
+/* --- Corps du contenu --- */
+.rst-content h1 {
+    color: #1A7A2A;
+    border-bottom: 3px solid #E8420A;
+    padding-bottom: 8px;
+}
+
+.rst-content h2 {
+    color: #1A7A2A;
+    border-bottom: 1px solid #c8e6c9;
+    padding-bottom: 4px;
+}
+
+.rst-content h3 {
+    color: #2d6e2d;
+}
+
+/* --- Blocs de code --- */
+.rst-content code {
+    background-color: #f0f9f0;
+    border: 1px solid #c8e6c9;
+    color: #1A7A2A;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.highlight {
+    background: #1e1e1e !important;
+    border-radius: 6px;
+    border-left: 4px solid #1A7A2A;
+}
+
+/* --- Admonitions (encadrés) --- */
+
+/* Astuce / tip → vert CESAG */
+.rst-content .admonition.tip,
+.rst-content div.tip {
+    background-color: #e8f5e9;
+    border-left: 4px solid #1A7A2A;
+}
+.rst-content .admonition.tip .admonition-title,
+.rst-content div.tip p.admonition-title {
+    background-color: #1A7A2A;
+    color: white;
+}
+
+/* Exercice / warning → orange CESAG */
+.rst-content .admonition.warning,
+.rst-content div.warning {
+    background-color: #fff3ee;
+    border-left: 4px solid #E8420A;
+}
+.rst-content .admonition.warning .admonition-title,
+.rst-content div.warning p.admonition-title {
+    background-color: #E8420A;
+    color: white;
+}
+
+/* Note → bleu neutre */
+.rst-content .admonition.note,
+.rst-content div.note {
+    background-color: #e8f4ff;
+    border-left: 4px solid #2196F3;
+}
+.rst-content .admonition.note .admonition-title,
+.rst-content div.note p.admonition-title {
+    background-color: #2196F3;
+    color: white;
+}
+
+/* Important → rouge doux */
+.rst-content .admonition.important,
+.rst-content div.important {
+    background-color: #fce8e8;
+    border-left: 4px solid #c62828;
+}
+.rst-content .admonition.important .admonition-title,
+.rst-content div.important p.admonition-title {
+    background-color: #c62828;
+    color: white;
+}
+
+/* --- Tableaux --- */
+.rst-content table.docutils thead th {
+    background-color: #1A7A2A;
+    color: white;
+}
+
+.rst-content table.docutils tbody tr:nth-child(even) {
+    background-color: #f0f9f0;
+}
+
+.rst-content table.docutils tbody tr:hover {
+    background-color: #e8f5e9;
+}
+
+/* --- Boutons de navigation --- */
+.rst-footer-buttons .btn-neutral {
+    background-color: #1A7A2A !important;
+    color: white !important;
+    border: none !important;
+}
+
+.rst-footer-buttons .btn-neutral:hover {
+    background-color: #155f22 !important;
+}
+
+/* --- Badge de version --- */
+.wy-side-nav-search .version {
+    color: rgba(255,255,255,0.7) !important;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .rst-content h1 { font-size: 1.4em; }
+    .rst-content h2 { font-size: 1.2em; }
+}
