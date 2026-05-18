@@ -32,7 +32,7 @@ templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # -- Thème HTML ---------------------------------------------------------------
-html_theme = "sphinx_rtd_theme"
+html_theme = "furo"
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
 
@@ -81,5 +81,5 @@ html_short_title = "HTML & CSS CESAG"
 html_meta = {
     "description": "Support de cours Introduction au Développement Web avec HTML et CSS — Licence 1 MIAGE, CESAG Dakar",
     "keywords": "HTML, CSS, développement web, CESAG, MIAGE, Dakar",
-    "authors": "Lionnel Patrick DOOKO - Model Technologie"
+    "author": "PATRICK LIONNEL DOOKO - Model Technologie"
 }
