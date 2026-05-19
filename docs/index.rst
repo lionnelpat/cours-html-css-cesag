@@ -73,20 +73,20 @@ Structure du cours
 ----
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 📋 Plan du cours
 
    plan-du-cours
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 🌐 Partie 1 — HTML
    :numbered:
 
    partie1-html/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: 🎨 Partie 2 — CSS
    :numbered:
 

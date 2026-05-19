@@ -94,6 +94,7 @@ latex_elements = {
     "papersize": "a4paper",
     "pointsize": "11pt",
     "preamble": r"""
+\setcounter{tocdepth}{3}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
