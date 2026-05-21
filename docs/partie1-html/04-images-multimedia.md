@@ -1,4 +1,4 @@
-# 1.4 Images et Multimédia
+# 1.3 Images et Multimédia
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -13,7 +13,7 @@
 
 ---
 
-## 1.4.1 La balise `<img>`
+## 1.3.1 La balise `<img>`
 
 ```html
 <img src="photo.jpg" alt="Description de l'image">
@@ -73,7 +73,7 @@ Pour les images décoratives (sans valeur informative), utilise `alt=""` (vide).
 
 ---
 
-## 1.4.2 Les formats d'images pour le Web
+## 1.3.2 Les formats d'images pour le Web
 
 | Format | Extension | Usage recommandé | Transparence |
 |--------|-----------|-----------------|--------------|
@@ -97,7 +97,7 @@ Pour les images décoratives (sans valeur informative), utilise `alt=""` (vide).
 
 ---
 
-## 1.4.3 `<figure>` et `<figcaption>` — Images avec légende
+## 1.3.3 `<figure>` et `<figcaption>` — Images avec légende
 
 ```html
 <figure>
@@ -117,111 +117,6 @@ Pour les images décoratives (sans valeur informative), utilise `alt=""` (vide).
 
 ---
 
-## 1.4.4 Images responsives — `srcset`
-
-Sur un téléphone, on n'a pas besoin d'une image de 2000px de large. L'attribut `srcset` permet de fournir plusieurs versions d'une image :
-
-```html
-<img
-  src="images/photo-400.jpg"
-  srcset="
-    images/photo-400.jpg   400w,
-    images/photo-800.jpg   800w,
-    images/photo-1200.jpg 1200w
-  "
-  sizes="(max-width: 600px) 400px, (max-width: 1200px) 800px, 1200px"
-  alt="Photo du campus"
->
-```
-
-Le navigateur choisit automatiquement la bonne taille selon l'écran.
-
----
-
-## 1.4.5 La vidéo HTML5 — `<video>`
-
-HTML5 permet d'intégrer des vidéos directement sans plugin :
-
-```html
-<video width="640" height="360" controls>
-  <source src="videos/presentation-cesag.mp4" type="video/mp4">
-  <source src="videos/presentation-cesag.webm" type="video/webm">
-  <p>Votre navigateur ne supporte pas la balise vidéo.
-     <a href="videos/presentation-cesag.mp4">Télécharger la vidéo</a>
-  </p>
-</video>
-```
-
-### Attributs de `<video>`
-
-| Attribut | Description |
-|----------|-------------|
-| `controls` | Affiche les boutons lecture/pause/volume |
-| `autoplay` | Lance la vidéo automatiquement (déconseillé) |
-| `muted` | Coupe le son (souvent nécessaire avec autoplay) |
-| `loop` | Rejoue en boucle |
-| `poster` | Image affichée avant lecture |
-| `width` / `height` | Dimensions |
-
-```html
-<!-- Vidéo en autoplay silencieuse (bannière animée) -->
-<video autoplay muted loop poster="images/preview.jpg" width="100%">
-  <source src="videos/banniere.mp4" type="video/mp4">
-</video>
-```
-
----
-
-## 1.4.6 L'audio HTML5 — `<audio>`
-
-```html
-<audio controls>
-  <source src="audio/podcast.mp3" type="audio/mpeg">
-  <source src="audio/podcast.ogg" type="audio/ogg">
-  <p>Votre navigateur ne supporte pas l'audio HTML5.</p>
-</audio>
-```
-
----
-
-## 1.4.7 Intégrer une vidéo YouTube (iframe)
-
-La méthode la plus simple pour les vidéos YouTube :
-
-```html
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/ID_DE_LA_VIDEO"
-  title="Titre de la vidéo"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
-  allowfullscreen>
-</iframe>
-```
-
-Pour trouver le code : Sur YouTube → Partager → Intégrer → Copier le code.
-
----
-
-## 1.4.8 Intégrer Google Maps
-
-```html
-<iframe
-  src="https://www.google.com/maps/embed?pb=!1m18...VOTRE_CLE"
-  width="600"
-  height="450"
-  style="border:0;"
-  allowfullscreen=""
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-```
-
-Sur Google Maps : Partager → Intégrer une carte → Copier le code HTML.
-
----
-
 ## Résumé de la leçon
 
 ```{admonition} Ce qu'il faut retenir
@@ -236,14 +131,11 @@ Sur Google Maps : Partager → Intégrer une carte → Copier le code HTML.
 | JPEG | Photos |
 | PNG | Logos, transparence |
 | WebP | Format moderne universel |
-| `<video controls>` | Vidéo native HTML5 |
-| `<audio controls>` | Audio natif HTML5 |
-| `<iframe>` | Contenu externe (YouTube, Maps) |
 ```
 
 ---
 
-## TP 4 — Page personnelle avec médias
+## TP 3 — Page personnelle avec médias
 
 ```{admonition} Exercice — À faire en TD
 :class: warning
@@ -264,12 +156,7 @@ Ajouter des images et un média à ta page personnelle.
 - Utilise un format approprié
 - L'image doit être dans un dossier `images/`
 
-**3. Intégration externe (3 pts)**
-Choisis et intègre l'un de ces éléments :
-- Une vidéo YouTube en rapport avec le web ou l'informatique
-- Une carte Google Maps montrant le CESAG à Dakar
-
-**4. Qualité (4 pts)**
+**3. Qualité (6 pts)**
 - Toutes les images ont un attribut `alt` correct
 - Les images sont dans un dossier `images/`
 - Les chemins sont relatifs (pas d'URL absolues pour les images locales)

@@ -4,119 +4,97 @@
 Plan détaillé du cours
 =========================
 
-Structure complète des **12 leçons** organisées en deux parties.
+Structure complète des **10 leçons** organisées en deux parties — 20 heures au total.
 
 .. list-table::
    :widths: 15 85
    :header-rows: 0
-   :class: borderless
 
    * - **Partie 1**
-     - HTML — 6 leçons — Le langage de structure du Web
+     - HTML — 5 leçons — Le langage de structure du Web
    * - **Partie 2**
-     - CSS — 6 leçons — Le langage de mise en forme du Web
+     - CSS — 5 leçons — Le langage de mise en forme du Web
 
 ----
 
 Partie 1 — HTML : Le langage de structure
 ==========================================
 
-1.1 Introduction au Web
--------------------------
-
-.. hlist::
-   :columns: 1
-
-   * 1.1.1 Qu'est-ce qu'Internet ?
-   * 1.1.2 Qu'est-ce que le Web ?
-   * 1.1.3 Comment fonctionne une page web ?
-   * 1.1.4 Le rôle de HTML, CSS et JavaScript
-   * 1.1.5 Les navigateurs web
-   * 1.1.6 Un éditeur de code — VS Code
-   * 1.1.7 Les outils de développement du navigateur
-   * *TP 1 — Exploration du Web*
-
-----
-
-1.2 Structure d'un document HTML
+1.1 Structure d'un document HTML
 ----------------------------------
 
 .. hlist::
    :columns: 1
 
-   * 1.2.1 Créer son premier fichier HTML
-   * 1.2.2 La structure de base HTML5
-   * 1.2.3 Anatomie d'une balise HTML
-   * 1.2.4 Les commentaires HTML
-   * 1.2.5 La structure sémantique HTML5
-   * 1.2.6 Indentation et lisibilité
-   * *TP 2 — Mon premier fichier HTML*
+   * *Avant de coder : le Web en 5 points (Internet, HTTP, navigateur, rôle de HTML/CSS/JS, VS Code)*
+   * 1.1.1 Créer son premier fichier HTML
+   * 1.1.2 La structure de base HTML5
+   * 1.1.3 Anatomie d'une balise HTML
+   * 1.1.4 Les commentaires HTML
+   * 1.1.5 La structure sémantique HTML5
+   * 1.1.6 Indentation et lisibilité
+   * *TP 1 — Mon premier fichier HTML*
 
 ----
 
-1.3 Balises de texte et liens hypertextes
+1.2 Balises de texte et liens hypertextes
 ------------------------------------------
 
 .. hlist::
    :columns: 1
 
-   * 1.3.1 Les titres HTML — ``<h1>`` à ``<h6>``
-   * 1.3.2 Les paragraphes et le texte
-   * 1.3.3 Le formatage du texte
-   * 1.3.4 Les liens hypertextes ``<a>``
-   * 1.3.5 Les chemins de fichiers (paths)
-   * *TP 3 — Page de présentation enrichie*
+   * 1.2.1 Les titres HTML — ``<h1>`` à ``<h6>``
+   * 1.2.2 Les paragraphes et le texte
+   * 1.2.3 Le formatage du texte
+   * 1.2.4 Les liens hypertextes ``<a>``
+   * 1.2.5 Les chemins de fichiers (paths)
+   * *TP 2 — Page de présentation enrichie*
 
 ----
 
-1.4 Images et Multimédia
---------------------------
+1.3 Images
+-----------
 
 .. hlist::
    :columns: 1
 
-   * 1.4.1 La balise ``<img>``
-   * 1.4.2 Les formats d'images pour le Web
-   * 1.4.3 ``<figure>`` et ``<figcaption>`` — Images avec légende
-   * 1.4.4 Images responsives — ``srcset``
-   * 1.4.5 La vidéo HTML5 — ``<video>``
-   * 1.4.6 L'audio HTML5 — ``<audio>``
-   * 1.4.7 Intégrer une vidéo YouTube (iframe)
-   * 1.4.8 Intégrer Google Maps
-   * *TP 4 — Page personnelle avec médias*
+   * 1.3.1 La balise ``<img>``
+   * 1.3.2 Les formats d'images pour le Web
+   * 1.3.3 ``<figure>`` et ``<figcaption>`` — Images avec légende
+   * *TP 3 — Page personnelle avec images*
 
 ----
 
-1.5 Listes et Tableaux
+1.4 Listes et Tableaux
 ------------------------
 
 .. hlist::
    :columns: 1
 
-   * 1.5.1 Les listes non ordonnées ``<ul>``
-   * 1.5.2 Les listes ordonnées ``<ol>``
-   * 1.5.3 Les listes imbriquées
-   * 1.5.4 Les listes de définitions ``<dl>``
-   * 1.5.5 Les tableaux HTML
-   * *TP 5 — Tableau de classe et listes*
+   * 1.4.1 Les listes non ordonnées ``<ul>``
+   * 1.4.2 Les listes ordonnées ``<ol>``
+   * 1.4.3 Les listes imbriquées
+   * 1.4.4 Les listes de définitions ``<dl>``
+   * 1.4.5 Les tableaux HTML
+   * *TP 4 — Tableau de classe et listes*
 
 ----
 
-1.6 Formulaires HTML
+1.5 Formulaires HTML
 ----------------------
 
 .. hlist::
    :columns: 1
 
-   * 1.6.1 La balise ``<form>``
-   * 1.6.2 La balise ``<input>``
-   * 1.6.3 La balise ``<label>``
-   * 1.6.4 La zone de texte ``<textarea>``
-   * 1.6.5 La liste déroulante ``<select>``
-   * 1.6.6 ``<fieldset>`` et ``<legend>`` — Grouper les champs
-   * 1.6.7 La validation HTML5
-   * 1.6.8 Formulaire complet — Exemple récapitulatif
-   * *TP 6 — Formulaire d'inscription CESAG*
+   * 1.5.1 La balise ``<form>``
+   * 1.5.2 La balise ``<input>``
+   * 1.5.3 La balise ``<label>``
+   * 1.5.4 La zone de texte ``<textarea>``
+   * 1.5.5 La liste déroulante ``<select>``
+   * 1.5.6 ``<fieldset>`` et ``<legend>`` — Grouper les champs
+   * 1.5.7 La validation HTML5
+   * 1.5.8 Formulaire complet — Exemple récapitulatif
+   * *TP 5 — Formulaire d'inscription CESAG*
 
 ----
 
@@ -139,7 +117,7 @@ Partie 2 — CSS : Le langage de mise en forme
    * 2.1.8 La cascade et la spécificité
    * 2.1.9 Les commentaires CSS
    * 2.1.10 Les outils de développement — DevTools CSS
-   * *TP 7 — Première feuille de style*
+   * *TP 6 — Première feuille de style*
 
 ----
 
@@ -151,10 +129,9 @@ Partie 2 — CSS : Le langage de mise en forme
 
    * 2.2.1 Les sélecteurs de combinaison
    * 2.2.2 Les sélecteurs d'attributs
-   * 2.2.3 Les pseudo-classes
-   * 2.2.4 Les pseudo-éléments
-   * 2.2.5 Exemple complet — Navigation stylisée
-   * *TP 8 — Navigation et effets interactifs*
+   * 2.2.3 Les pseudo-classes (:hover, :focus, :nth-child…)
+   * 2.2.4 Exemple complet — Navigation stylisée
+   * *TP 7 — Navigation et effets interactifs*
 
 ----
 
@@ -173,10 +150,7 @@ Partie 2 — CSS : Le langage de mise en forme
    * 2.3.7 La propriété ``display``
    * 2.3.8 La propriété ``position``
    * 2.3.9 Overflow — La gestion du débordement
-   * 2.3.10 Les ombres
-   * 2.3.11 Les fonds avancés
-   * 2.3.12 Les transitions CSS
-   * *TP 9 — Carte de visite web*
+   * *TP 8 — Carte de visite web*
 
 ----
 
@@ -196,43 +170,31 @@ Partie 2 — CSS : Le langage de mise en forme
    * 2.4.8 ``gap`` — L'espacement entre éléments
    * 2.4.9 Propriétés sur les enfants flex
    * 2.4.10 Exemples pratiques complets
-   * *TP 10 — Navigation et layout avec Flexbox*
+   * *TP 9 — Navigation et layout avec Flexbox*
 
 ----
 
-2.5 CSS Grid : mise en page en grille
-----------------------------------------
-
-.. hlist::
-   :columns: 1
-
-   * 2.5.1 Flexbox vs Grid — Quand utiliser lequel ?
-   * 2.5.2 Activer CSS Grid
-   * 2.5.3 ``grid-template-columns`` — Définir les colonnes
-   * 2.5.4 ``grid-template-rows`` — Définir les lignes
-   * 2.5.5 ``gap`` — L'espace entre cellules
-   * 2.5.6 Placer les éléments dans la grille
-   * 2.5.7 ``grid-template-areas`` — Zones nommées
-   * 2.5.8 Alignement dans la grille
-   * 2.5.9 Exemples pratiques complets
-   * *TP 11 — Site CESAG avec Grid*
-
-----
-
-2.6 Responsive Design et Media Queries
+2.5 Responsive Design et Media Queries
 -----------------------------------------
 
 .. hlist::
    :columns: 1
 
-   * 2.6.1 Qu'est-ce que le Responsive Design ?
-   * 2.6.2 La balise ``<meta viewport>``
-   * 2.6.3 Les Media Queries
-   * 2.6.4 Les breakpoints standards
-   * 2.6.5 Mobile First vs Desktop First
-   * 2.6.6 Adapter Flexbox et Grid avec les Media Queries
-   * 2.6.7 Navigation hamburger (menu mobile)
-   * 2.6.8 Images responsives
-   * 2.6.9 Typographie responsive
-   * 2.6.10 Tester le responsive
-   * *TP 12 — Site complet responsive (Projet final)*
+   * 2.5.1 Qu'est-ce que le Responsive Design ?
+   * 2.5.2 La balise ``<meta viewport>``
+   * 2.5.3 Les Media Queries
+   * 2.5.4 Les breakpoints standards
+   * 2.5.5 Mobile First vs Desktop First
+   * 2.5.6 Adapter Flexbox avec les Media Queries
+   * 2.5.7 Navigation hamburger (menu mobile)
+   * 2.5.8 Images responsives
+   * 2.5.9 Typographie responsive
+   * 2.5.10 Tester le responsive
+   * *TP 10 — Site complet responsive (Projet final)*
+
+.. admonition:: Pour aller plus loin — CSS Grid
+   :class: note
+
+   CSS Grid est une technique de mise en page en **grille 2D** complémentaire à Flexbox.
+   Elle est idéale pour des layouts complexes (page entière avec en-tête, sidebar, contenu, pied de page).
+   Ce sujet dépasse le cadre des 20h de ce cours — il sera abordé en Licence 2.

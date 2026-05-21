@@ -405,97 +405,6 @@ div {
 
 ---
 
-## 2.3.10 Les ombres
-
-```css
-/* Ombre de texte */
-h1 {
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    /*            x   y  flou   couleur */
-}
-
-/* Ombre de boîte */
-.carte {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    /*          x  y  flou   couleur */
-}
-
-/* Ombre interne */
-input:focus {
-    box-shadow: inset 0 2px 4px rgba(26,122,42,0.1);
-}
-
-/* Plusieurs ombres */
-.carte-premium {
-    box-shadow:
-        0 2px 4px rgba(0,0,0,0.1),
-        0 8px 24px rgba(0,0,0,0.08);
-}
-```
-
----
-
-## 2.3.11 Les fonds avancés
-
-```css
-div {
-    /* Couleur de fond */
-    background-color: #f5f5f5;
-
-    /* Image de fond */
-    background-image: url('images/motif.png');
-    background-repeat: no-repeat;   /* repeat | no-repeat | repeat-x | repeat-y */
-    background-size: cover;         /* cover | contain | 300px 200px */
-    background-position: center;    /* center | top | bottom | left | right */
-    background-attachment: fixed;   /* fixed | scroll | local */
-
-    /* Raccourci */
-    background: #1A7A2A url('logo.png') no-repeat center / cover;
-
-    /* Dégradé linéaire */
-    background: linear-gradient(135deg, #1A7A2A 0%, #E8420A 100%);
-
-    /* Dégradé radial */
-    background: radial-gradient(circle, #1A7A2A 0%, #155f22 100%);
-}
-```
-
----
-
-## 2.3.12 Les transitions CSS
-
-Les transitions permettent d'animer le changement d'une propriété :
-
-```css
-.bouton {
-    background-color: #1A7A2A;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 6px;
-    /* Transition : propriété durée timing-function délai */
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.bouton:hover {
-    background-color: #E8420A;
-    transform: translateY(-2px);    /* Monte légèrement */
-}
-
-.bouton:active {
-    transform: translateY(0);       /* Revient en place au clic */
-}
-```
-
-| Timing function | Effet |
-|----------------|-------|
-| `ease` | Lent → rapide → lent (défaut) |
-| `linear` | Vitesse constante |
-| `ease-in` | Démarre lentement |
-| `ease-out` | Finit lentement |
-| `ease-in-out` | Lent au début et à la fin |
-
----
-
 ## Résumé de la leçon
 
 ```{admonition} Ce qu'il faut retenir
@@ -523,7 +432,7 @@ Les transitions permettent d'animer le changement d'une propriété :
 
 ---
 
-## TP 9 — Carte de visite web
+## TP 8 — Carte de visite web
 
 ```{admonition} Exercice — À faire en TD (2 heures)
 :class: warning

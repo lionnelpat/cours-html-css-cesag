@@ -439,7 +439,7 @@ Dans Chrome, `F12` → onglet **Elements** :
 
 ---
 
-## TP 7 — Première feuille de style
+## TP 6 — Première feuille de style
 
 ```{admonition} Exercice — À faire en TD (2 heures)
 :class: warning

@@ -40,5 +40,4 @@ Dans cette deuxième partie, tu apprendras à transformer des pages HTML brutes 
    08-selecteurs-avances
    09-box-model
    10-flexbox
-   11-css-grid
    12-responsive-design

@@ -304,95 +304,6 @@ li:not(:last-child) {
 
 ---
 
-## 2.2.4 Les pseudo-éléments
-
-Les pseudo-éléments ciblent une **partie** d'un élément ou insèrent du contenu.
-
-### `::before` et `::after`
-
-Insèrent du contenu **avant** ou **après** un élément (sans modifier le HTML) :
-
-```css
-/* Ajouter une icône avant les liens externes */
-a[href^="https"]::before {
-    content: "🔗 ";
-}
-
-/* Ajouter "PDF" après les liens PDF */
-a[href$=".pdf"]::after {
-    content: " (PDF)";
-    font-size: 0.8em;
-    color: #E8420A;
-}
-
-/* Ligne décorative sous les titres */
-h2::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 3px;
-    background-color: #E8420A;
-    margin-top: 8px;
-}
-
-/* Guillemets automatiques */
-blockquote::before {
-    content: "\201C";  /* " */
-    font-size: 3em;
-    color: #1A7A2A;
-    line-height: 0;
-    vertical-align: -0.4em;
-}
-```
-
-```{admonition} La propriété content est obligatoire
-:class: note
-`::before` et `::after` nécessitent **toujours** `content: ""` (même vide) pour s'afficher. Sans cette propriété, le pseudo-élément est ignoré.
-```
-
-### `::first-line` et `::first-letter`
-
-```css
-/* Style de la première ligne d'un paragraphe */
-p::first-line {
-    font-weight: bold;
-    color: #1A7A2A;
-}
-
-/* Lettre capitale stylisée (effet magazine) */
-article p:first-child::first-letter {
-    font-size: 3em;
-    font-weight: bold;
-    float: left;
-    line-height: 0.8;
-    margin-right: 8px;
-    color: #1A7A2A;
-}
-```
-
-### `::placeholder`
-
-```css
-/* Style du texte placeholder dans les inputs */
-input::placeholder,
-textarea::placeholder {
-    color: #aaa;
-    font-style: italic;
-}
-```
-
-### `::selection`
-
-```css
-/* Style du texte sélectionné (surligné) par l'utilisateur */
-::selection {
-    background-color: #1A7A2A;
-    color: white;
-}
-```
-
----
-
 ## 2.2.5 Exemple complet — Navigation stylisée
 
 ```html
@@ -481,7 +392,7 @@ nav a:hover::after {
 
 ---
 
-## TP 8 — Navigation et effets interactifs
+## TP 7 — Navigation et effets interactifs
 
 ```{admonition} Exercice — À faire en TD
 :class: warning

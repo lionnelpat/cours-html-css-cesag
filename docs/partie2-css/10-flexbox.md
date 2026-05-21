@@ -395,7 +395,7 @@ footer {
 
 ---
 
-## TP 10 — Navigation et layout avec Flexbox
+## TP 9 — Navigation et layout avec Flexbox
 
 ```{admonition} Exercice — À faire en TD (2 heures)
 :class: warning

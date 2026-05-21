@@ -28,7 +28,6 @@ Dans cette première partie, tu apprendras à créer des pages web complètes et
    :maxdepth: 2
    :caption: Leçons HTML
 
-   01-intro-web
    02-structure-html
    03-balises-texte-liens
    04-images-multimedia

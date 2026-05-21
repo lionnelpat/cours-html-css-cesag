@@ -1,4 +1,4 @@
-# 1.3 Balises de texte et liens hypertextes
+# 1.2 Balises de texte et liens hypertextes
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -11,7 +11,7 @@
 
 ---
 
-## 1.3.1 Les titres HTML — `<h1>` à `<h6>`
+## 1.2.1 Les titres HTML — `<h1>` à `<h6>`
 
 HTML propose **6 niveaux de titres**, du plus important au moins important :
 
@@ -55,7 +55,7 @@ Les titres ont une importance pour le **référencement** (SEO) et l'**accessibi
 
 ---
 
-## 1.3.2 Les paragraphes et le texte
+## 1.2.2 Les paragraphes et le texte
 
 ### Le paragraphe `<p>`
 
@@ -102,7 +102,7 @@ Les titres ont une importance pour le **référencement** (SEO) et l'**accessibi
 
 ---
 
-## 1.3.3 Le formatage du texte
+## 1.2.3 Le formatage du texte
 
 ### Les balises de mise en valeur
 
@@ -167,7 +167,7 @@ Préfère toujours `<strong>` et `<em>` pour un code sémantiquement correct.
 
 ---
 
-## 1.3.4 Les liens hypertextes `<a>`
+## 1.2.4 Les liens hypertextes `<a>`
 
 Les liens sont l'essence du Web — ils relient les pages entre elles.
 
@@ -265,7 +265,7 @@ Quand tu utilises `target="_blank"`, ajoute toujours `rel="noopener noreferrer"`
 
 ---
 
-## 1.3.5 Les chemins de fichiers (paths)
+## 1.2.5 Les chemins de fichiers (paths)
 
 Comprendre les chemins est **essentiel** pour les liens et les images.
 
@@ -325,7 +325,7 @@ mon-site/
 
 ---
 
-## TP 3 — Page de présentation enrichie
+## TP 2 — Page de présentation enrichie
 
 ```{admonition} Exercice — À faire en TD
 :class: warning

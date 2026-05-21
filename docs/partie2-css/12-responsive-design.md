@@ -1,4 +1,4 @@
-# 2.6 Responsive Design et Media Queries
+# 2.5 Responsive Design et Media Queries
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -13,7 +13,7 @@
 
 ---
 
-## 2.6.1 Qu'est-ce que le Responsive Design ?
+## 2.5.1 Qu'est-ce que le Responsive Design ?
 
 Un site **responsive** (ou adaptatif) s'affiche correctement sur **tous les appareils** : smartphone, tablette, ordinateur portable, grand écran.
 
@@ -26,7 +26,7 @@ En Afrique de l'Ouest, **plus de 80%** des accès au web se font depuis un **té
 
 ---
 
-## 2.6.2 La balise `<meta viewport>` — Obligatoire !
+## 2.5.2 La balise `<meta viewport>` — Obligatoire !
 
 Sans cette balise, le navigateur mobile affiche la page comme si l'écran faisait 980px de large (zoom arrière automatique) — résultat illisible.
 
@@ -47,7 +47,7 @@ Sans cette balise, le navigateur mobile affiche la page comme si l'écran faisai
 
 ---
 
-## 2.6.3 Les Media Queries
+## 2.5.3 Les Media Queries
 
 Une **media query** applique des styles **conditionnellement**, selon les caractéristiques de l'écran.
 
@@ -86,7 +86,7 @@ Une **media query** applique des styles **conditionnellement**, selon les caract
 
 ---
 
-## 2.6.4 Les breakpoints standards
+## 2.5.4 Les breakpoints standards
 
 Les **breakpoints** (points de rupture) sont les largeurs auxquelles la mise en page change.
 
@@ -120,7 +120,7 @@ body { font-size: 15px; }
 
 ---
 
-## 2.6.5 Mobile First vs Desktop First
+## 2.5.5 Mobile First vs Desktop First
 
 ### Approche Desktop First (ancienne)
 
@@ -169,7 +169,7 @@ On code d'abord pour le mobile, puis on **augmente** avec `min-width` :
 
 ---
 
-## 2.6.6 Adapter Flexbox et Grid avec les Media Queries
+## 2.5.6 Adapter Flexbox et Grid avec les Media Queries
 
 ### Navigation responsive
 
@@ -247,7 +247,7 @@ On code d'abord pour le mobile, puis on **augmente** avec `min-width` :
 
 ---
 
-## 2.6.7 Navigation hamburger (menu mobile)
+## 2.5.7 Navigation hamburger (menu mobile)
 
 ```html
 <!-- HTML -->
@@ -371,7 +371,7 @@ btnMenu.addEventListener('click', function() {
 
 ---
 
-## 2.6.8 Images responsives
+## 2.5.8 Images responsives
 
 ```css
 /* Image qui ne dépasse jamais son conteneur */
@@ -391,7 +391,7 @@ img {
 
 ---
 
-## 2.6.9 Typographie responsive
+## 2.5.9 Typographie responsive
 
 ### Méthode 1 — Media queries
 
@@ -414,7 +414,7 @@ p  { font-size: clamp(15px, 2.5vw, 18px); }
 
 ---
 
-## 2.6.10 Tester le responsive
+## 2.5.10 Tester le responsive
 
 ### Dans le navigateur
 1. `F12` (DevTools) → icône 📱 (Device Toolbar) ou `Ctrl+Shift+M`
@@ -452,7 +452,7 @@ p  { font-size: clamp(15px, 2.5vw, 18px); }
 
 ---
 
-## TP 12 — Site complet responsive (Projet de fin de Partie 2)
+## TP 10 — Site complet responsive (Projet de fin de Partie 2)
 
 ```{admonition} Exercice Final CSS — À faire en TD (2 heures) + projet
 :class: warning

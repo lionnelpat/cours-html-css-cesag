@@ -5,8 +5,8 @@ Introduction au Développement Web avec HTML & CSS
 .. image:: https://img.shields.io/badge/Niveau-Débutant-green
    :alt: Niveau débutant
 
-.. image:: https://img.shields.io/badge/Volume-30h-orange
-   :alt: 30 heures
+.. image:: https://img.shields.io/badge/Volume-20h-orange
+   :alt: 20 heures
 
 .. image:: https://img.shields.io/badge/CESAG-L1%20MIAGE-1A7A2A
    :alt: CESAG L1 MIAGE
@@ -27,48 +27,79 @@ Ce cours est destiné aux étudiants de **Licence 1 MIAGE** du CESAG (Centre Afr
 
 ----
 
-Structure du cours
-==================
+Structure du cours — 20 heures
+==============================
 
 .. list-table::
-   :widths: 10 40 15 15 20
+   :widths: 8 42 10 12 14 14
    :header-rows: 1
 
    * - #
      - Contenu
      - Type
      - Durée
+     - Leçon
      - Module
    * - S1
-     - Introduction au Web
+     - Structure HTML + outils (VS Code, Live Server)
      - CM
-     - 1h30
+     - 2h00
+     - 1.1
      - HTML
    * - S2
-     - Mon premier fichier HTML (TD)
+     - TP — Mon premier fichier HTML complet
      - TD
      - 2h00
+     - TP 1
      - HTML
    * - S3
-     - Les balises essentielles
+     - Balises essentielles : texte, liens, images
      - CM
-     - 1h30
+     - 2h00
+     - 1.2 + 1.3
      - HTML
    * - S4
-     - Page personnelle structurée (TD)
+     - TP — Page de présentation personnelle
      - TD
      - 2h00
+     - TP 2 + 3
      - HTML
    * - S5
-     - Tableaux et formulaires
+     - Listes, Tableaux et Formulaires
      - CM
-     - 1h30
+     - 2h00
+     - 1.4 + 1.5
      - HTML
    * - S6
-     - Tableau de classe & formulaire (TD)
+     - TP — Formulaire d'inscription CESAG
      - TD
      - 2h00
+     - TP 4 + 5
      - HTML
+   * - S7
+     - CSS fondamentaux : cascade, sélecteurs, couleurs
+     - CM
+     - 2h00
+     - 2.1 + 2.2
+     - CSS
+   * - S8
+     - TP — Première feuille de style complète
+     - TD
+     - 2h00
+     - TP 6 + 7
+     - CSS
+   * - S9
+     - Box Model, Display, Flexbox
+     - CM
+     - 2h00
+     - 2.3 + 2.4
+     - CSS
+   * - S10
+     - TP — Site CESAG responsive (Flexbox + Media Queries)
+     - TD
+     - 2h00
+     - TP 8 + 9 + 10
+     - CSS
 
 ----
 
@@ -133,5 +164,5 @@ Téléchargement hors-ligne
 
    | **Établissement** : CESAG — Dakar, Sénégal
    | **Programme** : Licence 1 MIAGE (Mathématiques et Informatique Appliquées à la Gestion)
-   | **Volume horaire** : 30 heures (CM + TD)
+   | **Volume horaire** : 20 heures (CM + TD)
    | **Année académique** : 2025–2026

@@ -1,4 +1,4 @@
-# 1.6 Formulaires HTML
+# 1.5 Formulaires HTML
 
 ```{admonition} Objectifs de cette leçon
 :class: tip
@@ -12,7 +12,7 @@
 
 ---
 
-## 1.6.1 La balise `<form>`
+## 1.5.1 La balise `<form>`
 
 Tout formulaire commence et se termine par la balise `<form>` :
 
@@ -42,7 +42,7 @@ En cours, tu peux laisser `action="#"` — le formulaire ne sera pas traité (pa
 
 ---
 
-## 1.6.2 La balise `<input>`
+## 1.5.2 La balise `<input>`
 
 `<input>` est la balise la plus polyvalente des formulaires. Son comportement change selon l'attribut `type`.
 
@@ -142,7 +142,7 @@ Tous les boutons radio d'un même groupe doivent avoir le **même attribut `name
 
 ---
 
-## 1.6.3 La balise `<label>`
+## 1.5.3 La balise `<label>`
 
 Le `<label>` est **obligatoire** pour l'accessibilité. Il associe un texte descriptif à un champ.
 
@@ -172,7 +172,7 @@ Le `<label>` est **obligatoire** pour l'accessibilité. Il associe un texte desc
 
 ---
 
-## 1.6.4 La zone de texte `<textarea>`
+## 1.5.4 La zone de texte `<textarea>`
 
 Pour les messages longs (multi-lignes) :
 
@@ -197,7 +197,7 @@ Pour les messages longs (multi-lignes) :
 
 ---
 
-## 1.6.5 La liste déroulante `<select>`
+## 1.5.5 La liste déroulante `<select>`
 
 ```html
 <label for="filiere">Filière :</label>
@@ -238,7 +238,7 @@ Pour les messages longs (multi-lignes) :
 
 ---
 
-## 1.6.6 `<fieldset>` et `<legend>` — Grouper les champs
+## 1.5.6 `<fieldset>` et `<legend>` — Grouper les champs
 
 ```html
 <form action="#" method="POST">
@@ -275,7 +275,7 @@ Pour les messages longs (multi-lignes) :
 
 ---
 
-## 1.6.7 La validation HTML5
+## 1.5.7 La validation HTML5
 
 HTML5 permet de valider les champs **sans JavaScript** :
 
@@ -318,7 +318,7 @@ HTML5 permet de valider les champs **sans JavaScript** :
 
 ---
 
-## 1.6.8 Formulaire complet — Exemple récapitulatif
+## 1.5.8 Formulaire complet — Exemple récapitulatif
 
 ```html
 <!DOCTYPE html>
@@ -449,7 +449,7 @@ HTML5 permet de valider les champs **sans JavaScript** :
 
 ---
 
-## TP 6 — Formulaire d'inscription CESAG
+## TP 5 — Formulaire d'inscription CESAG
 
 ```{admonition} Exercice Final HTML — À faire en TD (2 heures)
 :class: warning
